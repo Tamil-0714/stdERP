@@ -1,20 +1,14 @@
 {
-  "name": "stdERP",
+  "name": "my-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "My Node.js application",
   "scripts": {
-    "build": "echo \"No build specified\" && exit 1",
-    "test": "echo \"No test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TomJerry-07/stdERP.git"
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TomJerry-07/stdERP/issues"
-  },
-  "homepage": "https://github.com/TomJerry-07/stdERP"
+  "author": "Your Name",
+  "license": "ISC"
 }
